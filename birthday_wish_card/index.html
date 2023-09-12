@@ -10,7 +10,7 @@
             <h1>Happy Birthday</h1>
             <?php
 $myfile = fopen("images/hostname", "r") or die("Unable to open file!");
-echo fread($myfile,filesize("images/hostname"));
+echo fgets($myfile);
 fclose($myfile);
 ?>
             <img id="bff-img" src="images/nick.jpg">
