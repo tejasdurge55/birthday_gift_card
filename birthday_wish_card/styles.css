@@ -54,8 +54,8 @@ h1, h2, h3, h4, p {
 
 .gift-img {
     margin: 20px auto;
-    max-width: 400px;
-    height: 400px;
+    max-width: 500px;
+    height: 300px;
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
